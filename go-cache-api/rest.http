@@ -1,0 +1,18 @@
+### 1
+GET http://localhost:8000/productCache
+# If-None-Match: "91f2da7be51a7954fbd02eaa5c97941d"
+Cache-Control: no-cache
+
+
+### 2
+
+GET http://localhost:8000/productCache?offset=10&sortby=-createdAt&search=สัตว์ป&limit=100
+# Cache-Control: no-cache
+# If-None-Match: "75e8cbb8bab745c59a615b051c8bfedf"
+Cache-Control: min-fresh=300
+
+
+
+
+
+

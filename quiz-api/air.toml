@@ -1,0 +1,12 @@
+# air.toml
+
+# The main entry file of your project.
+
+[[paths]]
+src = "./*.go"
+exclude = []
+
+[[paths]]
+src = "./{controllers,configs,responses,routes}/*"
+exclude = []
+

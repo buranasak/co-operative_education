@@ -1,0 +1,9 @@
+# air.toml
+
+# The main entry file of your project.
+
+
+[[paths]]
+src = "./*.go"
+exclude = ["/file/"]
+
